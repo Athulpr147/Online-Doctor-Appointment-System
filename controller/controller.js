@@ -187,8 +187,8 @@ exports.sendOtp = async(req,res)=>{
          const sendOTP = {
             service : 'gmail',
             auth : {
-               user : process.env.GMAIL,                              
-               pass : process.env.GMAIL_APP_PASSWORD  
+               user : 'wardrobewhizshop@gmail.com',                              
+               pass : 'fyxp cybh nxjq olmc'  
             }
          }
 

@@ -7,7 +7,7 @@ const cookieParser = require('cookie-parser')
 const path = require('path')
 
 //PORT NUMBER 
-const PORT = process.env.PORT || 7070 
+const PORT = 3399 || 7070 
 
 //CONNECTING DATABASE
  connectDB()
