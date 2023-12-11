@@ -28,7 +28,7 @@ exports.bookingPage = async (req,res)=>{
         })
         const appointments = await Appointment.find({email : userEmail})
         console.log(appointments)
-        res.render('bookslot',{appointments})
+        res.render('bookslot',{appointments , userEmail})
         console.log('oops')
     } catch (error) {
         console.log(error)
