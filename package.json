@@ -1,0 +1,34 @@
+{
+  "name": "odas",
+  "version": "1.0.0",
+  "description": "Online Doctor Appointment System (ODAS)",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Athulpr147/Online-Doctor-Appointment-System.git"
+  },
+  "author": "Athul PR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Athulpr147/Online-Doctor-Appointment-System/issues"
+  },
+  "homepage": "https://github.com/Athulpr147/Online-Doctor-Appointment-System#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mailgen": "^2.0.28",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.7",
+    "otp-generator": "^4.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

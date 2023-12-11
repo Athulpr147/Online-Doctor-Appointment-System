@@ -1,0 +1,126 @@
+a{
+   color: black;
+   text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+body{
+    background-color: rgb(234, 241, 247);
+}
+.section-1{
+    background-color:white ;
+   border-bottom: 1px solid rgba(128, 128, 128, 0.432);
+    
+}
+.section-1 img{
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+}
+
+.section-2{
+    background-color:white ;
+   
+}
+.consult-type label{
+    padding: 0px 10px 0px 10px;
+cursor: pointer;
+text-align: center;
+}
+.consult-type img{
+    width: 50px;
+}
+.consult-type p{
+    font-weight: 500;
+}
+.select-active{
+    border: 2px solid rgb(173, 15, 15);
+border-radius: 10px;
+text-decoration: underline;
+}
+.date-selection{
+    font-size: 17px;
+    margin: 10px 0px 10px 0px;
+    background-color: aliceblue;
+    padding:15px 20px 15px 20px ;
+}
+#selectDate{
+    width: 50px;
+    border: 1px solid gray;
+    /* height: 30px; */
+   /* background-image: url('https://imgs.search.brave.com/BaA8WHf21VY0Jj1RUfs18-cyHVLLkGXRIDp5KSZDD8c/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LnByZXNlbnRl/cm1lZGlhLmNvbS9j/b250ZW50L2NsaXBh/cnQvMDAwMTYwMDAv/MTY5NjEvcGx1c19z/aWduXzMwMF9ud20u/anBn'); */
+}
+.selectTime h6{
+    border: 1px solid grey;
+    width: 90%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;  
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.timeActive {
+    background-color: rgb(212, 140, 46);
+}
+
+.section-3{
+    background-color: white;
+}
+.email_otp{
+    border: 1px solid grey;
+    border-radius: 8px;
+    max-width: 700px;
+    margin-top: 50px;
+    padding: 30px;
+}
+.email_otp input{
+    outline: none;
+    border-radius: 0px;
+    border: 1px solid rgb(73, 102, 73);
+    height: 35px;
+    width: 250px;
+    margin-top: 50px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+.email_otp button {
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: rgb(55, 90, 21);
+    color: white;
+    font-weight: 500;
+}
+
+    .date-active{
+        border: 2px solid rgb(55, 90, 21);
+        border-radius: 5px;
+    }
+
+    .appointment-ball{
+        margin-top: 80px;
+        position: fixed;
+        
+       right: 0;
+       margin-right: 10px;
+        background-color: blueviolet;
+        border-radius: 50px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+    }
+    .appointment-ball p{
+        padding: 13px 10px 0px 10px;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .app-card{
+        border: 1px solid gray;
+        padding: 20px 10px 20px 10px;
+        margin: 10px;
+        border-radius: 10px;
+        font-weight: 500;
+    }
